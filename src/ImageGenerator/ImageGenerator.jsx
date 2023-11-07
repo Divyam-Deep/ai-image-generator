@@ -18,7 +18,7 @@ export const ImageGenerator = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer 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",
+          Authorization: "*******",
         },
         body: JSON.stringify({
           inputs: `${inputRef.current.value}`,
